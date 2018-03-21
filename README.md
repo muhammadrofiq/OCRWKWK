@@ -1,5 +1,5 @@
 # OCR-WKWK
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
 
 OCR-WKWK Merupakan project untuk mengenali karakter pada nomor kendaraan Indonesia (wkwk land), program ini dibuat menggunakan bahasa pemrograman python dengan metode KNN dan Haar Cascade. Untuk hasil yang lebih baik anda dapat membuat model haar anda sendiri, dan/atau anda dapat melakukan training kembali model KNN yang telah kami buat. 
 
