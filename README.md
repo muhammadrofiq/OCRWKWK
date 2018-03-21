@@ -28,7 +28,7 @@ project ini menggunakan beberapa teknologi, yaitu:
 ### Diagram
 
 Ada beberapa tahapan yang dilakukan program ini untuk mengenali karakter pada plat nomor kendaraan.
-![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20OCR_zpsxhx7su2w.jpg)
+[](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20OCR_zpsxhx7su2w.jpg)
 
 * Image input yang diproses akan disegmentasi atau diambil bagian **platnomornya saja** menggunakan model harcascade yang telah dibuat
 * Setelah gambar terfokus pada bagian platnomor saja dilakukanlah **praprocessing**, dengan memaksimalkan kontras dan penghalusan citra dengan gaussian blur.
