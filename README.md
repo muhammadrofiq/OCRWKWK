@@ -1,4 +1,6 @@
 # OCR-WKWK
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
 
 
 OCR-WKWK Merupakan project untuk mengenali karakter pada nomor kendaraan Indonesia (wkwk land), program ini dibuat menggunakan bahasa pemrograman python dengan metode KNN dan Haar Cascade. Untuk hasil yang lebih baik anda dapat membuat model haar anda sendiri, dan/atau anda dapat melakukan training kembali model KNN yang telah kami buat. 
@@ -25,12 +27,19 @@ project ini menggunakan beberapa teknologi, yaitu:
 
 ### Diagram
 
-Ada beberapa tahapan yang dilakukan program ini untuk mengenali karakter pada plat nomor kendaraan. berikut diagram nya
+Ada beberapa tahapan yang dilakukan program ini untuk mengenali karakter pada plat nomor kendaraan.
+![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20OCR_zpsxhx7su2w.jpg)
 
-* Python - HTML enhanced for web apps!
-* Opencv python - awesome web-based text editor
+* Image input yang diproses akan disegmentasi atau diambil bagian **platnomornya saja** menggunakan model harcascade yang telah dibuat
+* Setelah gambar terfokus pada bagian platnomor saja dilakukanlah **praprocessing**, dengan memaksimalkan kontras dan penghalusan citra dengan gaussian blur.
+* Langkah selanjutnya adalah mendeteksi karakter yang terdapat pada plat nomor kendaraan. program ini mendeteksi **seluruh kontur** pada citra.
+* Kontur yang telah didapatkan akan di **filter** dengan menyaring kontur yang benar benar memiliki **karakteristik seperti huruf dan angka** kemudian mengelompokannya sesuai dengan kemiripan ukuran dengan karakter lain.
 
+Berikut ini merupakandiagram dari fungsi automation gate.
+![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20Gate%20Automization_zpslzhzepyo.jpg)
 
+Jika anda ingin mengkoneksikan project ini ke arduino, berikut skema arduino yang di perlu di buat.
+![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Skema%20arduino_zpsj9wrke9m.png)
 ### Installation
 
 
@@ -45,7 +54,7 @@ $ python single-cap.py
 ```
 
 ### Notes
-Program ini dibuat diatas sistem operasi linux, sehingga ada kemungkinan beberapa fungsi ada yang tidak berjalan pada sistem operasi lain.
+Program ini dibuat diatas sistem operasi linux, sehingga ada kemungkinan beberapa fungsi ada yang tidak berjalan pada sistem operasi lain. 
 
 License
 ----
