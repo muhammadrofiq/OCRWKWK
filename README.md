@@ -27,7 +27,7 @@ project ini menggunakan beberapa teknologi, yaitu:
 ### Diagram
 
 Ada beberapa tahapan yang dilakukan program ini untuk mengenali karakter pada plat nomor kendaraan.
-![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20OCR_zpsxhx7su2w.jpg)
+![alt text](https://github.com/muhammadrofiq/OCRWKWK/blob/master/misc/Alur%20OCR.JPG?raw=true)
 
 * Image input yang diproses akan disegmentasi atau diambil bagian **platnomornya saja** menggunakan model harcascade yang telah dibuat
 * Setelah gambar terfokus pada bagian platnomor saja dilakukanlah **praprocessing**, dengan memaksimalkan kontras dan penghalusan citra dengan gaussian blur.
@@ -35,10 +35,10 @@ Ada beberapa tahapan yang dilakukan program ini untuk mengenali karakter pada pl
 * Kontur yang telah didapatkan akan di **filter** dengan menyaring kontur yang benar benar memiliki **karakteristik seperti huruf dan angka** kemudian mengelompokannya sesuai dengan kemiripan ukuran dengan karakter lain.
 
 Berikut ini merupakandiagram dari fungsi automation gate.
-![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Alur%20Gate%20Automization_zpslzhzepyo.jpg)
+![alt text](https://github.com/muhammadrofiq/OCRWKWK/blob/master/misc/Alur%20Gate%20Automization.JPG?raw=true)
 
 Jika anda ingin mengkoneksikan project ini ke arduino, berikut skema arduino yang di perlu di buat.
-![alt text](http://i1250.photobucket.com/albums/hh532/qwense/Skema%20arduino_zpsj9wrke9m.png)
+![alt text](https://github.com/muhammadrofiq/OCRWKWK/blob/master/misc/Skema%20arduino.png?raw=true)
 ### Installation
 
 
