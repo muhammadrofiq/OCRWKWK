@@ -1,5 +1,9 @@
 # OCR-WKWK
-
+<p align="center">
+  <br>
+  <img width="450" src="https://raw.githubusercontent.com/muhammadrofiq/OCRWKWK/master/src/img/B3974EGX.jpg">
+  <br>
+</p>
 
 
 OCR-WKWK Merupakan project untuk mengenali karakter pada nomor kendaraan Indonesia (wkwk land), program ini dibuat menggunakan bahasa pemrograman python dengan metode KNN dan Haar Cascade. Untuk hasil yang lebih baik anda dapat membuat model haar anda sendiri, dan/atau anda dapat melakukan training kembali model KNN yang telah kami buat. 
